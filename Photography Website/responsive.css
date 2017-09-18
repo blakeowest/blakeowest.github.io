@@ -1,0 +1,117 @@
+@media (min-width: 720px) {
+  
+  body {
+    height: 100%;
+  }
+
+  .who {
+    float: left;
+    width: 45%;
+    padding: 15px 7px;
+  }
+
+  .why {
+    float: right;
+    width: 45%;
+    padding: 15px 7px;
+    margin-bottom: 40px;
+  }
+
+  .story {
+    width: 60%;
+  }
+
+  .contact {
+    width: 45%;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  .title {
+    padding-top: 15px;
+  }
+
+  .portfolio {
+    min-height: 100%;
+  }
+
+  img {
+    width: 45%;
+    margin: 2%;
+  }
+
+}
+
+@media (min-width: 1020px) {
+
+  img {
+    width: 27%;
+    margin: 2%;
+  }
+
+ .title {
+  float: left;
+  margin-left: 25px;
+  margin-top: 380px;
+  font-size: 35px;
+ }
+
+  #main-nav {
+    float: right;
+    margin-top: 380px;
+  }
+
+  #main-nav li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .title {
+    margin-left: 100px;
+    margin-top: 530px;
+  }
+
+  #main-nav {
+    margin-right: 75px;
+    margin-top: 530px;
+  }
+
+  .home-main {
+    height: 600px;
+  }
+
+  .about-main {
+    height: 600px;
+  }
+
+  .story {
+    width: 40%;
+  }
+
+  .contact-main {
+    height: 600px;
+  }
+
+  .contact {
+    width: 40%;
+  }
+
+  .portfolio-main {
+    height: 600px;
+  }
+
+}
+
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
