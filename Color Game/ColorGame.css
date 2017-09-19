@@ -19,6 +19,7 @@ body{
 .container {
 	max-width: 600px;
 	margin: 20px auto;
+	height: calc(100vh - 360px);
 }
 
 h1{
@@ -68,6 +69,7 @@ button:hover {
 	height: 30px;
 	text-align: center;
 	color: black;
+	font-size: 12px;
 }
 
 .selected {
@@ -76,13 +78,12 @@ button:hover {
 }
 
 footer {
-	margin-top: 245px;
-	position:fixed;
-	bottom: 0px;
+/*	margin-top: 393px;*/
 	width: 100%;
 	text-align: center;
 	background-color: lightgrey;
 	color: #4f5051;
+	display: inline-block;
 }
 
 footer a {
@@ -92,4 +93,22 @@ footer a {
 
 footer a:hover {
 	opacity: .7;
+}
+
+
+@media (min-width: 768px) {
+
+	#stripe {
+	font-size: 16px;
+}
+
+}
+
+
+@media (min-width: 457px) {
+
+	.container {
+		height: calc(100vh - 297px);
+	}
+
 }
