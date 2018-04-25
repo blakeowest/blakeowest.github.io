@@ -54,7 +54,8 @@
 @media (min-width: 1020px) {
 
 	#about p {
-		width: 600px;
+		width: 875px;
+		font-size: 20px;
 	}
 
 	#skills img {
